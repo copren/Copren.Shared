@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Copren.Shared.Async</PackageId>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <Authors>Austin Hanson</Authors>
+    <Company>Copren</Company>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <VersionSuffix>dev</VersionSuffix>
+  </PropertyGroup>
+
+</Project>
