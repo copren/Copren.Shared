@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Copren.Async
+namespace Copren.Shared.Async
 {
     public abstract class AsyncTask
     {
