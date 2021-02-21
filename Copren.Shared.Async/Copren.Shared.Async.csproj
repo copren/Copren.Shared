@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>Copren.Shared.Async</PackageId>
-    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionPrefix>0.0.2</VersionPrefix>
     <Authors>Austin Hanson</Authors>
     <Company>Copren</Company>
   </PropertyGroup>
